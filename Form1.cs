@@ -168,6 +168,11 @@ namespace CALCULADORA
             lblOperacao.Text = "";
         }
 
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void button13_Click(object sender, EventArgs e)
         {
             if (txtResultado.Text != "")
